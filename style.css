@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+body{
+   background-color: burlywood;
+}
+
+    h1{
+        font-size: 70px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: #947348;
+    }
+
+    p{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+input{
+    background-color: burlywood;
+}
+
+button{
+    background-color: #947348;
+}
+
+    button:hover{
+opacity: 0.8;
+    }
+
+   .formulario{
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+   }
+
+    .imagem{
+        margin-top: 2em;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+    }
+
+    .menor{
+        display: flex;
+       flex-direction: row;
+       justify-content: center;
+    }
+
+    .maior{
+        display: flex;
+       flex-direction: row;
+       justify-content: center;
+    }
+
+    footer{
+        display: flex;
+       flex-direction: row;
+       justify-content: center;
+       margin-top: 2em;
+    }

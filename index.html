@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcurt icon" href="garrafa-de-cerveja.png">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura Condicional</title>
+</head>
+<body>
+
+    <h1>Verifique sua Idade</h1>
+    
+<div class="formulario">
+    <p>Por favor, insira sua idade:</p>
+    <input type="number" name="" id="idadeInput">
+    <button onclick="verificarIdade()">Verificar</button>
+</div>
+
+<script>
+function verificarIdade(){
+    var idade = parseInt(document.getElementById("idadeInput").value);
+
+    if (idade>=18) {
+        window.location.href = 'maior.html';
+    } else {
+        window.location.href = 'menor.html';
+    }
+}
+</script>
+
+<div class="imagem"><img src="https://media0.giphy.com/media/nUZbB9xC0gD3G/giphy.gif?cid=ecf05e47pv27bbdjhs49c3zli9bld9mmmu3qyq5oqs2y89qj&ep=v1_gifs_related&rid=giphy.gif&ct=g" alt="" width="650px"></div>
+
+<footer>Desenvolvido por Nathalia D.&copy;</footer>
+
+</body>
+</html>
